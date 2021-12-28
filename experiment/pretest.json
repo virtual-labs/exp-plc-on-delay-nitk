@@ -2,38 +2,78 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Timers are output instructions that are internal to the programmable logic controller.",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "True",
+        "b": "False"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": ""
       },
       "correctAnswer": "a",
-      "difficulty": "beginner"
+      "difficulty": ""
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "In timer element, word 2 is for ________.",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Preset value",
+        "b": "Accumulated value",
+        "c": "Status bits"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "The timer 3, in default timer file 4, can be addressed as ________ .",
+      "answers": {
+        "a": "T3:4",
+        "b": "T3/4",
+        "c": "T4:3",
+        "d": "T4/3"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": ""
+    },
+    {
+      "question": "In word zero, of timer element, bit 15, is the _______ .",
+      "answers": {
+        "a": "Timer-timing bit",
+        "b": "Timer-enable bit",
+        "c": "Timer-done bit"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "An on-delay timer is not retentive in nature.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": "",
+        "b": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": ""
     }
   ]
 }
