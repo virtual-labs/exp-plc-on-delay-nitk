@@ -2,38 +2,98 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Timers are __________ .",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Used to delay an action",
+        "b": "Used to run an operation for a predetermined period of time",
+        "c": "Used to record the total accumulated time of continuous or inter-mediate events",
+        "d": "All of the above"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "correctAnswer": "d",
+      "difficulty": ""
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "________ are used when an action is to begin a specified time after the input becomes true. ",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Off-delay timers",
+        "b": "On-delay timers"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "The accumulated value of timer 12, in default timer file 4, is addressed as ________ .",
+      "answers": {
+        "a": "T4:9.ACC",
+        "b": "T4:9/ACC",
+        "c": "T9:4/ACC",
+        "d": "T9:4.ACC"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": ""
+    },
+    {
+      "question": "In word zero, of timer element, bit 13, is the _______",
+      "answers": {
+        "a": "Timer-timing bit",
+        "b": "Timer-enable bit",
+        "c": "Timer-done bit"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": ""
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": ""
+    },
+    {
+      "question": "In timer file 12, timer 5's timer timing bit is addressed as ________.",
+      "answers": {
+        "a": "T5:12/TT",
+        "b": "T12:5/TT",
+        "c": "T5:12.TT",
+        "d": "T12:5.TT"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "In an on-delay timer, the enable bit will be true when the timer-timing bit is true. Timer enable bit will be set through the transition from the timer-timing bit to the timer-done bit. Timer enable bit is set as long as there is logical continuity through all input instruction to the timer instruction, no matter the relationship between the preset value and accumulated value.",
+      "answers": {
+        "a": "The above statement is true",
+        "b": "The above statement is true in most of the cases",
+        "c": "The above statement is false"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": ""
     }
   ]
 }
